@@ -1,0 +1,177 @@
+/* universal */
+#metrics-section {
+  height: auto;
+  background-color: #F7F8FC;
+}
+
+/* side bar */
+.sidebar {
+  background-color: #343a40;
+}
+.sidebar a {
+  color: #ffffff;
+}
+.sidebar a:hover {
+  color: #ffffff;
+  background-color: #495057;
+}
+
+.nav-item {
+  opacity: 0.5; 
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+.nav-item.active {
+  opacity: 1; 
+  background-color: #495057; 
+}
+
+.icon-color {
+  filter: brightness(0) invert(0.5); 
+  margin-right: 10px;
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.nav-item.active .icon-color {
+  color: white; 
+  filter: brightness(0) invert(1); 
+  transform: scale(1.1); 
+}
+
+#nav {
+  gap: 10px;
+}
+
+  
+/* Main Content Area */
+.button-icon {
+  opacity: 0.5; 
+}
+
+.middle-section {
+  border-radius: 15px; 
+  overflow: hidden;
+}
+
+.middle-section h6 {
+  color: #9FA2B4; 
+}
+
+.border-right {
+  border-right: 1px solid #cccccc; 
+  padding-right: 10px; 
+  margin-right: 10px; 
+}
+
+.custom-small-text {
+  font-size: 12px; 
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.2s;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+.card-number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3, h5 {
+  color: #343a40;
+}
+
+.card.active  {
+  border-color: #007bff; 
+  color: #007bff; 
+}
+
+.card.active .card-title {
+  color: #007bff; 
+}
+
+.custom-table th, .custom-table td {
+  border: none; 
+}
+
+hr {
+  background-color: #e2e2e6;
+}
+
+
+/* Last Rows */
+.last-rows {
+  width: 100%;
+  margin: 0 auto; 
+}
+
+.unresolved-card, .tasks-card {
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  flex: 1; 
+}
+
+.view-details-link {
+  font-size: 12px;
+  color: #3751FF;
+  text-decoration: none;
+}
+
+.view-details-link:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  color: #9FA2B4;
+  font-size: 14px;
+}
+
+p {
+  color: #9FA2B4;
+}
+
+.text-black-30 {
+  color: rgba(0, 0, 0, 0.3); 
+}
+
+.tasks-card .task-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain; 
+}
+
+.small-text {
+  font-size: 14px; 
+  color: #252733;
+}
+
+
+/* General Typography */
+h5 {
+  font-size: 19px;
+}
+
+p {
+  font-size: 14px;
+  color: #252733;
+}
+
+p.subtitle {
+  font-size: 12px;
+  color: #9FA2B4;
+}
+
+
+/* Utility Classes */
+.border-bottom {
+  border-bottom: 1px solid #e2e2e6;
+}
+
+.row.align-items-center {
+  min-height: 300px; 
+}
